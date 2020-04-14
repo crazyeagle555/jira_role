@@ -1,3 +1,5 @@
 ---
 jira_package: atlassian-jira-software-{{ jira_version }}.tar.gz
 jira_installation_url: https://www.atlassian.com/software/jira/downloads/binary/{{ jira_package }}
+postgresql_package: postgresql-{{ psql_jdbc_version }}
+postgresql_jdbc_url: https://jdbc.postgresql.org/download/{{ postgresql_package }}
