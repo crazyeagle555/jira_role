@@ -2,3 +2,4 @@
 jira_database_url: "jdbc:postgresql://{{ jira_database_host }}:{{ jira_database_port }}/{{ jira_database_name }}"
 jira_database_driver_class: 'org.postgresql.Driver'
 jira_database_validation_query: 'select 1'
+jira_database_validation_query_timeout: 1
